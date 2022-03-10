@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+:root {
+    --primary-color: rgb(29, 83, 255);
+    --secondary-color: rgba(29, 83, 255,0.1);
+    --back-color:#fdf7f5;
+}
+
+html, body {
+    max-width: 90;
+    height: 100%;
+    font-size: 1.25em;
+    font-family: 'roboto', serif;
+    padding: 0px;
+    margin: 0px; 
+    overflow-x: hidden;
+   }
+.h2{
+       color: #3a4660;
+       margin-bottom: 1rem;
+   }
+.p-intro{
+       color: #6c7486;
+       margin-bottom: 2rem;
+       font-size: 1.25rem;
+       font-weight: 400;
+    }
+   
+a{
+    text-decoration: none;
+    color: #a2a2a2;
+    font-weight: 300;
+}
+.sticky{
+    position: sticky;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.width-100-percent{
+    width: 100%;
+}
+
+.justify_centre{
+    justify-content: center;
+}
+
+.align-centre{
+    align-items: center;
+}
+.flex-1
+{
+    flex: 1;
+}
+.flex-2{
+    flex: 2;
+    padding-inline: 55px;
+}
+.move-right{
+    justify-content: flex-end;
+}
+.gap{
+    gap: 10px;
+}
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.common-padding{
+    padding: 0px 0.5em;
+}
+
+.position-absolute{
+    position: absolute;
+}
+.position-relative{
+    position: relative;
+}
+.btn-wraper{
+    color: #ecf3fd;
+    background-color: var(--primary-color);
+    border-radius: 1em;
+    padding: 1.2rem 2.4rem 1.4rem;
+}
+.w-inline-block{
+    display: inline-block;
+    max-width: 100%;
+
+}

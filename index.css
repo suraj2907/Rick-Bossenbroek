@@ -1,0 +1,97 @@
+h1, h2, h3, h4, h5, h6, p {
+
+    color: var(--primary-color);
+    
+}
+
+.no-list-style ul li{
+    list-style-type: none;
+    padding: 10px;
+}
+.no-list-style ul li:hover{
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+}
+
+.no-list-style ul li:hover a{
+    color: black;
+}
+header, footer, .intro-section{
+    background-color: #fdf7f5;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.intro-section{
+    background-image: url(https://uploads-ssl.webflow.com/60a11f286cce9b4ccbc7fa02/60a11f286cce9b078bc7fa1e_circle--half.svg);
+    background-position: 50% 100%,0% 0%;
+    background-size: contain,auto;
+    background-repeat: no-repeat,repeat;
+    padding-bottom: 9em;
+}
+
+.rick-image{
+    width: 100%;
+    height: 15em;
+    border: solid 1px var(--primary-color);
+    border-radius: 50px;
+    transform: scaleX(1.35) translate(42px, -73px);
+    animation: RickImage 6s ease infinite;
+    position: relative;
+    left: 14px;
+    
+}
+@keyframes RickImage {
+
+    0%{
+        transform: translate(0rem,0rem);
+    }
+    50%{
+        transform: translate(2rem,-1rem);
+    
+    }
+    100%{
+        transform: translate(0rem,0rem);
+    }
+    
+}
+.frame{
+    width: 40%;
+    height: 15em;
+    border: solid 1px var(--primary-color);
+    border-radius: 50px;
+}
+#w-button{
+    bottom: 20%;
+    left: -30px;
+    z-index: 1;
+}
+#branding{
+    top: -120px;
+    left: 180px;
+    z-index: -1;
+}
+#t-text{
+    top: 47%;
+    left: 400px;
+}
+.transform-image{
+    transform: rotate3d(1, 1, 1, 15deg) translate(166px, 68px);
+}
+.section{
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+}
+.container-is-small{
+    max-width: 68rem;
+    width: 45rem;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.align-item{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
